@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="Quest" representedClassName=".Quest" syncable="YES">
+        <attribute name="descriQuestC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriQuestX" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriQuestZ" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomeQuest" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pontoQuest" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="questC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questX" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questZ" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respQuestC" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respQuestX" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respQuestZ" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Usuario" representedClassName=".Usuario" syncable="YES">
+        <attribute name="cidade" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pontos" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="questRespondida" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="senha" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Quest" positionX="16" positionY="201" width="128" height="210"/>
+        <element name="Usuario" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>
